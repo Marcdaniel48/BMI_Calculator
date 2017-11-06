@@ -149,7 +149,7 @@ public class BMICalculatorController
 
                 // Validation: If the user entered a height lower than 0.914 meters OR higher than 2.108 meters OR if the user entered a weight that's not between 50 and 500,
                 // then pop up an appropriate alert dialog.
-                if((height < 0.914) || (height > 2.108) || (weight <= 50) || (weight >= 500))
+                if((height < 0.914) || (height > 2.108) || (weight <= 22.679) || (weight >= 226.796))
                 {
                     alertDialogInvalidHeightWeight();
                 }
