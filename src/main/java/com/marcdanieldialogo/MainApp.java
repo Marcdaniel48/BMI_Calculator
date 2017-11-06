@@ -45,6 +45,10 @@ public class MainApp extends Application
         
         initRootLayout();
         
+        // Set title of stage
+        primaryStage.setTitle(ResourceBundle.getBundle("BMICalculatorProps").getString("CalculatorTitle"));
+        
+        // Show
         primaryStage.show();
     }
     
